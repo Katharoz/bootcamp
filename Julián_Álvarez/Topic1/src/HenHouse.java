@@ -10,8 +10,10 @@ public class HenHouse implements IBuildings {
     }
 
     @Override
-    public void generateAnimalProduct(){
-        this.hens.forEach(Hen::generateProduct);
+    public void generateAnimalProduct(int amountPerDay){
+        this.hens.forEach(hen -> {
+           hen.generateProduct(amountPerDay);
+        });
     }
 
 }

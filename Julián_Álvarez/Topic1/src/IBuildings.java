@@ -1,4 +1,4 @@
 public interface IBuildings {
     void addAnimal(IAnimals animal);
-    void generateAnimalProduct();
+    void generateAnimalProduct(int amountPerDay);
 }

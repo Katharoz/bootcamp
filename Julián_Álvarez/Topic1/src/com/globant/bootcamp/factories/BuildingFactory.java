@@ -1,4 +1,4 @@
-package com.globant.bootcamp.builders;
+package com.globant.bootcamp.factories;
 
 import com.globant.bootcamp.buildings.HenHouse;
 import com.globant.bootcamp.interfaces.IBuildings;

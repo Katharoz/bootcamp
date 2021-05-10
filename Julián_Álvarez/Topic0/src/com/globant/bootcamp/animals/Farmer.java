@@ -1,6 +1,11 @@
-public class Farmer extends Person implements EggCollection{
+package com.globant.bootcamp.animals;
 
-    Farmer(String name, String lastName, int age){
+import com.globant.bootcamp.abstracts.Person;
+import com.globant.bootcamp.interfaces.EggCollection;
+
+public class Farmer extends Person implements EggCollection {
+
+    public Farmer(String name, String lastName, int age){
         super.name = name;
         super.lastName = lastName;
         super.age = age;

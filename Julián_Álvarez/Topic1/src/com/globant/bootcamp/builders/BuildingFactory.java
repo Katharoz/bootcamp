@@ -1,3 +1,8 @@
+package com.globant.bootcamp.builders;
+
+import com.globant.bootcamp.buildings.HenHouse;
+import com.globant.bootcamp.interfaces.IBuildings;
+
 public class BuildingFactory {
     public IBuildings createBuilding(String building){
         if(building.equalsIgnoreCase("HenHouse")) return new HenHouse();

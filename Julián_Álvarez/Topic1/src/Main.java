@@ -1,3 +1,6 @@
+import com.globant.bootcamp.animals.Hen;
+import com.globant.bootcamp.enums.EggType;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -12,8 +15,8 @@ public class Main {
 
         for(int i=0; i<numberOfHens; i++){
             //When 'i' is under 70% of the total number of hens,
-            //it creates a Hen with an eggType = (D)Red
-            //Otherwise it creates a Hen with an eggType = (O)White
+            //it creates a com.globant.bootcamp.animals.Hen with an eggType = (D)Red
+            //Otherwise it creates a com.globant.bootcamp.animals.Hen with an eggType = (O)White
             Hen hen = new Hen(i<((numberOfHens*70)/100) ? EggType.D : EggType.O);
             hen.setBuilding(farm.getHenHouse());
         }

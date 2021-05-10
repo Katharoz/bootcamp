@@ -1,3 +1,6 @@
+import com.globant.bootcamp.animals.Hen;
+import com.globant.bootcamp.buildings.HenHouse;
+
 import java.util.Arrays;
 
 public class Farm {
@@ -15,7 +18,6 @@ public class Farm {
     }
     //endregion
 
-    //Takes the array of hens and converts it into a list.
     public void listOfHens(Hen[] hens){
 
         this.henHouse.setHens(Arrays.asList(hens));

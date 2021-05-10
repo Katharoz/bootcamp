@@ -1,3 +1,10 @@
+package com.globant.bootcamp.animals;
+
+import com.globant.bootcamp.buildings.HenHouse;
+import com.globant.bootcamp.enums.EggType;
+import com.globant.bootcamp.interfaces.IAnimals;
+import com.globant.bootcamp.interfaces.IBuildings;
+
 public class Hen implements IAnimals {
     private final EggType eggType;
     private HenHouse house;

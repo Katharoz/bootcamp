@@ -1,3 +1,7 @@
+import com.globant.bootcamp.builders.BuildingFactory;
+import com.globant.bootcamp.buildings.HenHouse;
+import com.globant.bootcamp.interfaces.IBuildings;
+
 public class Farm {
     private final BuildingFactory factory = new BuildingFactory();
     private IBuildings henHouse;

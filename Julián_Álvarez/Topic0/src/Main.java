@@ -1,3 +1,8 @@
+import com.globant.bootcamp.animals.Farmer;
+import com.globant.bootcamp.animals.Hen;
+import com.globant.bootcamp.buildings.HenHouse;
+import com.globant.bootcamp.enums.EggType;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -9,13 +14,13 @@ public class Main {
         Hen[] hens = new Hen[numberOfHens];
         //endregion
 
-        //Create a new Hen House in our Farm.
+        //Create a new com.globant.bootcamp.animals.Hen House in our Farm.
         farm.setHenHouse(new HenHouse());
 
         for(int i=0; i<numberOfHens; i++){
             //When 'i' is under 70% of the total number of hens,
-            //it creates a Hen with an eggType = (D)Red
-            //Otherwise it creates a Hen with an eggType = (O)White
+            //it creates a com.globant.bootcamp.animals.Hen with an eggType = (D)Red
+            //Otherwise it creates a com.globant.bootcamp.animals.Hen with an eggType = (O)White
             Hen hen = new Hen(i<((numberOfHens*70)/100) ? EggType.D : EggType.O, eggsPerDay);
             hens[i] = hen;
         }

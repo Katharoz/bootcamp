@@ -1,3 +1,7 @@
+package com.globant.bootcamp.animals;
+
+import com.globant.bootcamp.enums.EggType;
+
 public class Hen {
     EggType eggType;
     int eggsPerDay;

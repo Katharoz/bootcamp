@@ -1,11 +1,11 @@
-import java.util.logging.Logger;
+import org.apache.log4j.Logger;
 
 public class Farmer{
     private final String name;
     private final String lastName;
     private final int age;
 
-    private static Logger logger = Logger.getLogger("Farmer");
+    private static Logger logger = Logger.getLogger(Farmer.class);
 
     Farmer(String name, String lastName, int age){
         this.name = name;
@@ -24,7 +24,7 @@ public class Farmer{
 
             if ((i+1)%5==0) System.out.println();
         }
-        logger.info("Everything went smoothly");
+        logger.info("Everything went smoothly and this log message is saved in a log file");
     }
 
 }

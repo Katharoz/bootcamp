@@ -1,9 +1,9 @@
-/home/julian/Projects/IdeaProjects/bootcamp/Julián_Álvarez/Topic2/src/main/java/EggType.java
+/home/julian/Projects/IdeaProjects/bootcamp/Julián_Álvarez/Topic2/src/main/java/com/globant/bootcamp/buildings/HenHouse.java
 /home/julian/Projects/IdeaProjects/bootcamp/Julián_Álvarez/Topic2/src/main/java/Main.java
 /home/julian/Projects/IdeaProjects/bootcamp/Julián_Álvarez/Topic2/src/main/java/Farm.java
-/home/julian/Projects/IdeaProjects/bootcamp/Julián_Álvarez/Topic2/src/main/java/IAnimals.java
+/home/julian/Projects/IdeaProjects/bootcamp/Julián_Álvarez/Topic2/src/main/java/com/globant/bootcamp/enums/EggType.java
+/home/julian/Projects/IdeaProjects/bootcamp/Julián_Álvarez/Topic2/src/main/java/com/globant/bootcamp/interfaces/IBuildings.java
 /home/julian/Projects/IdeaProjects/bootcamp/Julián_Álvarez/Topic2/src/main/java/Farmer.java
-/home/julian/Projects/IdeaProjects/bootcamp/Julián_Álvarez/Topic2/src/main/java/IBuildings.java
-/home/julian/Projects/IdeaProjects/bootcamp/Julián_Álvarez/Topic2/src/main/java/BuildingFactory.java
-/home/julian/Projects/IdeaProjects/bootcamp/Julián_Álvarez/Topic2/src/main/java/HenHouse.java
-/home/julian/Projects/IdeaProjects/bootcamp/Julián_Álvarez/Topic2/src/main/java/Hen.java
+/home/julian/Projects/IdeaProjects/bootcamp/Julián_Álvarez/Topic2/src/main/java/com/globant/bootcamp/animals/Hen.java
+/home/julian/Projects/IdeaProjects/bootcamp/Julián_Álvarez/Topic2/src/main/java/com/globant/bootcamp/interfaces/IAnimals.java
+/home/julian/Projects/IdeaProjects/bootcamp/Julián_Álvarez/Topic2/src/main/java/com/globant/bootcamp/factories/BuildingFactory.java

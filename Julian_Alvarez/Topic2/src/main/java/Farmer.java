@@ -5,7 +5,7 @@ public class Farmer{
     private final String lastName;
     private final int age;
 
-    private static Logger logger = Logger.getLogger(Farmer.class);
+    private static final Logger logger = Logger.getLogger(Farmer.class);
 
     Farmer(String name, String lastName, int age){
         this.name = name;

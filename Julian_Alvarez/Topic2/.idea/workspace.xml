@@ -5,25 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="85f51ce9-b470-4ffd-9e9d-2ad4f3c1a5fc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Topic2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Topic2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Farm.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Farmer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/globant/bootcamp/animals/Hen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/globant/bootcamp/animals/Hen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/globant/bootcamp/buildings/HenHouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/globant/bootcamp/buildings/HenHouse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/globant/bootcamp/factories/BuildingFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/globant/bootcamp/factories/BuildingFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/globant/bootcamp/interfaces/IAnimals.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/globant/bootcamp/interfaces/IBuildings.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/infoLog.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/infoLog.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

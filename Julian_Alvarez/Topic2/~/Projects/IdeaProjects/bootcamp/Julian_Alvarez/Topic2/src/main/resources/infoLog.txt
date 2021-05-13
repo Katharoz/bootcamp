@@ -1,6 +1,0 @@
-[main] INFO  com.globant.bootcamp.Farmer  - 
-Everything went well and this message is being sent to a log file.
-[main] INFO  com.globant.bootcamp.Farmer  - 
-Everything went well and this message is being sent to a log file.
-[main] INFO  com.globant.bootcamp.Farmer  - 
-

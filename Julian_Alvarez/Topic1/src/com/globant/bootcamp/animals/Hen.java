@@ -1,39 +1,31 @@
 package com.globant.bootcamp.animals;
 
+import com.globant.bootcamp.abstracts.Animal;
+import com.globant.bootcamp.abstracts.Building;
 import com.globant.bootcamp.buildings.HenHouse;
 import com.globant.bootcamp.enums.EggType;
-import com.globant.bootcamp.interfaces.IAnimals;
-import com.globant.bootcamp.interfaces.IBuildings;
 
-public class Hen implements IAnimals {
+public class Hen extends Animal {
     private final EggType eggType;
-    private HenHouse house;
+    private Building livesIn;
 
     public Hen(EggType eggType) {
         this.eggType = eggType;
     }
 
-    @Override
-    public void setBuilding(IBuildings henHouse){
-        this.house = (HenHouse) henHouse;
-        henHouse.addAnimal(this);
+    public Building getLivesIn() {
+        return livesIn;
     }
 
-    public static String redEggs = "";
-    public static String whiteEggs = "";
+    public void setLivesIn(HenHouse livesIn) {
+        this.livesIn = livesIn;
+        livesIn.addAnimal(this);
+    }
 
     //'Spawns' the daily amount of eggs of the hen. Simply adding a letter to it's corresponding string.
-    @Override
-    public void generateProduct(int amountPerDay){
-        int count=0;
-        do {
-            if (eggType == EggType.D) {
-                redEggs += "D";
-            } else {
-                whiteEggs += "O";
-            }
-            count++;
-        }while(count<amountPerDay);
+    public EggType hasEgg(){
+        if (eggType == EggType.D) return EggType.D;
+        else return EggType.O;
     }
 
 }

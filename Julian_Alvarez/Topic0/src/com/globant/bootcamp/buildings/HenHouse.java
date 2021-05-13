@@ -1,26 +1,36 @@
 package com.globant.bootcamp.buildings;
 
+import com.globant.bootcamp.abstracts.Animal;
+import com.globant.bootcamp.abstracts.Building;
 import com.globant.bootcamp.animals.Hen;
-
+import com.globant.bootcamp.enums.EggType;
 import java.util.ArrayList;
 import java.util.List;
 
-public class HenHouse {
-    List<Hen> hens = new ArrayList<>();
+public class HenHouse extends Building {
 
-    //region Constructor/Getters/Setters
+    private final List<Hen> hens = new ArrayList<>();
+
+    public static final List<EggType> listOfEggs = new ArrayList<>();
 
     public List<Hen> getHens() {
         return hens;
     }
 
-    public void setHens(List<Hen> hens) {
-        this.hens = hens;
+    @Override
+    public void addAnimal(Animal hen) {
+        this.hens.add((Hen) hen);
     }
-    //endregion
 
-    public void eggs(){
-        this.hens.forEach(Hen::hasEgg);
+    @Override
+    public void generateProducts(int dailyAmount){
+        this.hens.forEach(hen -> {
+            int count = 0;
+            do{
+                listOfEggs.add(hen.hasEgg());
+                count++;
+            }while (count<dailyAmount);
+        });
     }
 
 }

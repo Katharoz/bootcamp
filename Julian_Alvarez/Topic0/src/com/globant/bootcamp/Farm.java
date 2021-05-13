@@ -27,5 +27,10 @@ public class Farm {
 
     public void addBuilding(Building building) { this.buildings.add(building); }
 
+    public void generateProducts(int dailyAmount){
+        for (Building building:buildings) {
+            building.generateProducts(dailyAmount);
+        }
+    }
 
 }

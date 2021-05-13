@@ -1,6 +1,5 @@
 package com.globant.bootcamp;
 
-import com.globant.bootcamp.buildings.HenHouse;
 import com.globant.bootcamp.factories.BuildingFactory;
 
 public class Main {
@@ -17,10 +16,7 @@ public class Main {
 
         farmer.addAnimals(numberOfHens, "Hens");
 
-        //region TODO fix this hardcoding.
-        HenHouse henHouse = (HenHouse) farm.getSpecificBuilding(0);
-        henHouse.generateProducts(eggsPerDay);
-        //endregion
+        farm.generateProducts(eggsPerDay);
 
         farmer.collectEggs();
 

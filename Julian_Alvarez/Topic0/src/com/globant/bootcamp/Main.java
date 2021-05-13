@@ -16,10 +16,7 @@ public class Main {
 
         farmer.addAnimals(numberOfHens, "Hens");
 
-        //region TODO fix this hardcoding.
-        HenHouse henHouse = (HenHouse) farm.getSpecificBuilding(0);
-        henHouse.generateProducts(eggsPerDay);
-        //endregion
+        farm.generateProducts(eggsPerDay);
 
         farmer.collectEggs();
 

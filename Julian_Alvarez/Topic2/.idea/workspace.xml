@@ -5,7 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="85f51ce9-b470-4ffd-9e9d-2ad4f3c1a5fc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Topic0/src/com/globant/bootcamp/Farm.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Topic0/src/com/globant/bootcamp/Farm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Topic0/src/com/globant/bootcamp/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Topic0/src/com/globant/bootcamp/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Topic1/src/com/globant/bootcamp/Farm.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Topic1/src/com/globant/bootcamp/Farm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Topic1/src/com/globant/bootcamp/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Topic1/src/com/globant/bootcamp/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/globant/bootcamp/Farm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/globant/bootcamp/Farm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/globant/bootcamp/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/globant/bootcamp/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/infoLog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/infoLog.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,5 +74,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

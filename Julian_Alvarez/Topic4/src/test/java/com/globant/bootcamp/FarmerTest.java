@@ -1,14 +1,15 @@
 package com.globant.bootcamp;
 
-import com.globant.bootcamp.buildings.HenHouse;
-import com.globant.bootcamp.factories.BuildingFactory;
+import com.globant.bootcamp.entities.Farm;
+import com.globant.bootcamp.entities.Farmer;
+import com.globant.bootcamp.entities.buildings.HenHouse;
+import com.globant.bootcamp.entities.factories.BuildingFactory;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
-
 import java.util.Arrays;
 
 @RunWith(value = Parameterized.class)

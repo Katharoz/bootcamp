@@ -1,6 +1,6 @@
-package com.globant.bootcamp;
+package com.globant.bootcamp.entities;
 
-import com.globant.bootcamp.abstracts.Building;
+import com.globant.bootcamp.entities.abstracts.Building;
 import java.util.ArrayList;
 import java.util.List;
 

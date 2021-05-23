@@ -1,9 +1,9 @@
-package com.globant.bootcamp.buildings;
+package com.globant.bootcamp.entities.buildings;
 
-import com.globant.bootcamp.abstracts.Animal;
-import com.globant.bootcamp.abstracts.Building;
-import com.globant.bootcamp.animals.Hen;
-import com.globant.bootcamp.enums.EggType;
+import com.globant.bootcamp.entities.abstracts.Animal;
+import com.globant.bootcamp.entities.abstracts.Building;
+import com.globant.bootcamp.entities.animals.Hen;
+import com.globant.bootcamp.entities.enums.EggType;
 import java.util.ArrayList;
 import java.util.List;
 

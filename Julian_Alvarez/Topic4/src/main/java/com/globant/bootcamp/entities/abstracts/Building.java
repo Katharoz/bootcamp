@@ -1,4 +1,4 @@
-package com.globant.bootcamp.abstracts;
+package com.globant.bootcamp.entities.abstracts;
 
 public abstract class Building {
     public abstract void addAnimal(Animal animal);

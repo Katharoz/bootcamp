@@ -1,9 +1,9 @@
-package com.globant.bootcamp.animals;
+package com.globant.bootcamp.entities.animals;
 
-import com.globant.bootcamp.abstracts.Animal;
-import com.globant.bootcamp.abstracts.Building;
-import com.globant.bootcamp.buildings.HenHouse;
-import com.globant.bootcamp.enums.EggType;
+import com.globant.bootcamp.entities.abstracts.Animal;
+import com.globant.bootcamp.entities.abstracts.Building;
+import com.globant.bootcamp.entities.buildings.HenHouse;
+import com.globant.bootcamp.entities.enums.EggType;
 
 public class Hen extends Animal {
     private final EggType eggType;

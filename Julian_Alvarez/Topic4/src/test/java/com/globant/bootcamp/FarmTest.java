@@ -1,10 +1,10 @@
 package com.globant.bootcamp;
 
-import com.globant.bootcamp.factories.BuildingFactory;
+import com.globant.bootcamp.entities.Farm;
+import com.globant.bootcamp.entities.factories.BuildingFactory;
 import org.junit.*;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
-
 import java.util.Arrays;
 
 @RunWith(value = Parameterized.class)

@@ -1,8 +1,8 @@
-package com.globant.bootcamp;
+package com.globant.bootcamp.entities;
 
-import com.globant.bootcamp.animals.Hen;
-import com.globant.bootcamp.buildings.HenHouse;
-import com.globant.bootcamp.enums.EggType;
+import com.globant.bootcamp.entities.animals.Hen;
+import com.globant.bootcamp.entities.buildings.HenHouse;
+import com.globant.bootcamp.entities.enums.EggType;
 import org.apache.log4j.Logger;
 import java.util.ArrayList;
 import java.util.List;

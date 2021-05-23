@@ -1,11 +1,15 @@
 package com.globant.bootcamp;
 
-import com.globant.bootcamp.factories.BuildingFactory;
+import com.globant.bootcamp.entities.Farm;
+import com.globant.bootcamp.entities.Farmer;
+import com.globant.bootcamp.entities.factories.BuildingFactory;
+import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class Main {
     public static void main(String[] args) {
+        SpringApplication.run(Main.class, args);
 
         //region Variables
         final int numberOfHens = 40;

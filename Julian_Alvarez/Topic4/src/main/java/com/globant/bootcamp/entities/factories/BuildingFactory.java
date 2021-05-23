@@ -1,7 +1,7 @@
-package com.globant.bootcamp.factories;
+package com.globant.bootcamp.entities.factories;
 
-import com.globant.bootcamp.buildings.HenHouse;
-import com.globant.bootcamp.abstracts.Building;
+import com.globant.bootcamp.entities.abstracts.Building;
+import com.globant.bootcamp.entities.buildings.HenHouse;
 
 public class BuildingFactory {
     public static HenHouse createHenHouse(){

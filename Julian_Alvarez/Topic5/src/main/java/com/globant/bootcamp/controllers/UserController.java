@@ -1,13 +1,12 @@
-package com.globant.bootcamp.repositories;
+package com.globant.bootcamp.controllers;
 
-import com.globant.bootcamp.entities.User;
+import com.globant.bootcamp.models.User;
 import com.globant.bootcamp.sevices.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 import java.util.Optional;
-import java.util.UUID;
 
 @RequestMapping("/user")
 @RestController
@@ -17,7 +16,7 @@ public class UserController {
     private UserService userService;
 
     @GetMapping
-    public List<User> users(){
+    public Iterable<User> users(){
         return userService.getUsers();
     }
 
@@ -40,13 +39,13 @@ public class UserController {
         return "User name already exist";
     }
 
-    @PutMapping("/{id}")
-    public void updateUser(@PathVariable("id") UUID id, @RequestBody User user){
-        userService.updateById(id, user);
+    @PutMapping
+    public void updateUser(@RequestBody User user){
+        userService.updateById(user);
     }
 
     @DeleteMapping("/{id}")
-    public void deleteUser(@PathVariable("id") UUID id){
+    public void deleteUser(@PathVariable("id") Long id){
         userService.deleteById(id);
     }
 

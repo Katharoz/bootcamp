@@ -1,7 +1,7 @@
 package com.globant.bootcamp.sevices;
 
-import com.globant.bootcamp.dao.EggDao;
-import com.globant.bootcamp.entities.EggType;
+import com.globant.bootcamp.models.EggCarton;
+import com.globant.bootcamp.repositories.EggCartonRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -11,25 +11,25 @@ import java.util.List;
 public class EggService {
 
     @Autowired
-    private EggDao eggDao;
+    private EggCartonRepository eggCartonRepository;
 
-    public void addEggs(int amount, String type){
+    public void addEggs(int amount, EggCarton carton){
         for (int i=0; i<amount; i++) {
-            eggDao.insertEgg(type);
+            eggCartonRepository.save(new EggCarton(carton.getEggType()));
         }
     }
 
-    public List<EggType> getEggs(){
-        return eggDao.getEggs();
+    public List<EggCarton> getCartons(){
+        return eggCartonRepository.findAll();
     }
 
-    public void updateEgg(int index, String type){
-        eggDao.updateEgg(index, type);
+    public void updateEgg(EggCarton carton){
+        eggCartonRepository.save(carton);
     }
 
-    public void deleteEgg(int amount, String type){
+    public void deleteEgg(int amount, EggCarton carton){
         for (int i=0; i<amount; i++) {
-            eggDao.buyEggs(type);
+            eggCartonRepository.deleteByType(carton);
         }
     }
 

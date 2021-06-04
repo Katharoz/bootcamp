@@ -25,8 +25,8 @@ public class UserController {
         return userService.findByName(name);
     }
 
-    @GetMapping("/userName")
-    public Optional<User> userByUsername(@RequestParam("userName") String userName){
+    @GetMapping("/username")
+    public Optional<User> userByUsername(@RequestParam("username") String userName){
         return userService.findByUserName(userName);
     }
 
